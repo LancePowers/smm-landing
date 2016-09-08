@@ -86,14 +86,17 @@ body{
 	padding-bottom: 15px;
 }
 /*---start-slider-banner----*/
+
 .slider{
-	background: url(../images/first.jpg) no-repeat;
+	background: url(https://pbs.twimg.com/media/CcKcZSXUMAASc3G.jpg) no-repeat;
   background-size: cover;
 	padding:3em 0;
 }
+
+
 .slider-left{
 	float: left;
-	width: 66%;
+	width: 100%;
 	margin-right: 2%;
 	margin-top: 1.8em;
 }
@@ -2273,4 +2276,11 @@ form{
 		margin: 0em 0 0em 0;
 		font-size:1.8em;
 	}
+}
+
+h3.hackathong {
+   font-size: 2em;
+   line-height: 1.2em;
+   font-weight: 400;
+   width: 79%;
 }
