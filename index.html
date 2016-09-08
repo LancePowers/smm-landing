@@ -7,25 +7,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Limelight website for high end mobiles,like samsung nokia mobile website templates for free | Home :: w3layouts</title>
+		<title>Sigmend</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
-	    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	   <script type="text/javascript">
-			$(window).load(function(){
-				$('div.description').each(function(){
-					$(this).css('display', 'block');
-				});
-
-				$('div.content-top-grid').hover(function(){
-					$(this).children('.description').stop().fadeTo(500, 1);
-				},function(){
-					$(this).children('.description').stop().fadeTo(500, 0);
-				});
-
-			});
-	</script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 	</head>
 	<body>
 		<!---start-wrap---->
@@ -49,23 +37,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<!---//End-header---->
 		<!---start-slider---->
-		<div class="slider">
-			<div class="wrap">
-			<div class="slider-left">
-				<em> </em>
-				<h1>Solving Our Silent Problem</h1>
-				<p>Mental Illness is the leading cause of disability worldwide. 50% of individuals in the tech industry have sought treatment for mental illness, yet only 26% of those working in tech are aware of their company's mental health resources and how to seek help (Finkler, 2015).</p>
-				<form>
-					<input type="text" class="textbox" value="Email address.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address..';}"><input type="submit" value="Join Us" />
-				</form>
-			</div>
-			<div class="slider-right">
-				<img src="images/slider-img.png" alt="" />
-			</div>
-			<div class="clear"> </div>
-		</div>
+		<div class="ss">
+			<div><img src="./images/slide-one.png"/></div>
+			<div><img src="./images/slide-two.png"/></div>
+			<div><img src="./images/slide-three.png"/></div>
+			<div><img src="./images/slide-four.png"/></div>
+			<div><img src="./images/slide-five.png"/></div>
 		</div>
 		<!---//End-slider---->
+		<!-- <div class="wrap">
+		<div class="slider-left">
+		<h1>Solving Our Silent Problem</h1>
+		<p>Mental Illness is the leading cause of disability worldwide. 50% of individuals in the tech industry have sought treatment for mental illness, yet only 26% of those working in tech are aware of their company's mental health resources and how to seek help (Finkler, 2015).</p>
+		<form>
+		<input type="text" class="textbox" value="Email address.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address..';}"><input type="submit" value="Join Us" />
+	</form>
+</div>
+<div class="slider-right">
+<img src="images/slider-img.png" alt="" />
+</div>
+<div class="clear"> </div> -->
+<!-- </div> -->
 		<!-- start-about -->
 		<div class="blog-articlas">
 			<div class="wrap">
@@ -73,15 +65,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="blog-articla-grids">
 		<div class="blog-articla-grid">
 			<div class="blog-articla-grid-pic">
-				<a href="bsingle.html"><img src="images/sigmend-logo-large.png" alt=" " /></a>
+				<a href="bsingle.html"><img src="images/sigmend-logo-large-dark.png" alt=" " /></a>
+				<p class="subscript">
+					A growing team of current and former CEOs, mental health professionals, suicide survivors and thriving, bipolar developers working to reduce the human and economic costs of mental illness.
+				</p>
 			</div>
 			<div class="blog-articla-grid-info">
-				<h3><a href="bsingle.html">Who we are</a></h3>
+				<h3><a href="bsingle.html">To start...</a></h3>
 				<ul>
-					<p class="artical-para">
-						A growing team of current and former CEOs, mental health professionals, suicide survivors and thriving, bipolar developers working to reduce the human and economic costs of mental illness.
-					</p>
-					<a class="artbtn" href="bsingle.html">Read More</a>
+					<li class="artical-para">  We are uniting Colorado's startup community with organizations working to lower the amount of death and disability due to mental illness in the state.</li>
+					<li class="artical-para">We teach empathy and foster communication through Design Thinking Workshops, which combine the practical experiences and expertise of Colorado's mental health community with the creativity and innovation of our startup community.</li>
+					<li class="artical-para">We work with companies to create safer, healthier workplaces with clear channels to help for employees who need it.</li>
+					<li class="artical-para">Together we are building a larger, more effective, empowered mental health community.</li>
 				</ul>
 			</div>
 			<div class="clear"> </div>
@@ -460,5 +455,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!---//End-footer---->
 		<!---//End-wrap---->
 		 </div>
+
+
+	   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+		 <!-- <script type="text/javascript">
+			$(window).load(function(){
+				$('div.description').each(function(){
+					$(this).css('display', 'block');
+				});
+
+				$('div.content-top-grid').hover(function(){
+					$(this).children('.description').stop().fadeTo(500, 1);
+				},function(){
+					$(this).children('.description').stop().fadeTo(500, 0);
+				});
+			});
+			</script> -->
+	<script type="text/javascript" src="./js/main.js"></script>
 	</body>
 </html>
