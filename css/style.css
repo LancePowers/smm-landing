@@ -50,7 +50,7 @@ body{
 }
 .logo{
 	float:left;
-	margin-top:0.8em;
+	margin-top:0.2em;
 }
 .logo a{
 	width: 173px;
@@ -63,14 +63,14 @@ body{
 }
 .top-nav ul li{
 	display:inline-block;
-	padding: 1.2em 1em;
+	padding: .6em .5em;
 }
 .top-nav ul li:first-child a:before{
 	content: url(../images/home-icon.png) no-repeat 50%;
 	vertical-align: sub;
 }
 .top-nav ul li a{
-	color: #222;
+	color: #777;
 	font-family: 'permianslabseriftypefaceRg';
 	display: block;
 	transition:0.5s all;
@@ -2280,4 +2280,75 @@ form{
 }
 .blog-articla-grid-info li {
   list-style-image: url(../images/sigmend-logo-small.png);
+}
+.ss {
+  padding: 75px 0px;
+  background-color: #17c197;
+}
+/* 1 column: 320px */
+.autowide {
+  margin: 50px auto;
+	width: 88%;
+}
+.autowide h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #777;
+	line-height: 1.2em;
+	font-weight: 400;
+	width: 99%;
+  text-transform: uppercase;
+}
+.autowide img {
+  max-width: 100px;
+  float: left;
+  margin: 0 .75rem 0 0;
+}
+.autowide .module {
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  min-height: 200px;
+}
+.autowide .module p {
+  padding: .25rem .75rem;
+  color: #555;
+}
+
+/* 2 columns: 600px */
+@media only screen and (min-width: 600px) {
+  .autowide .module {
+		float: left;
+		margin-right: 2.564102564102564%;
+		width: 48.717948717948715%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 3 columns: 768px */
+@media only screen and (min-width: 768px) {
+  .autowide .module {
+		width: 31.623931623931625%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 4 columns: 992px and up */
+@media only screen and (min-width: 992px) {
+  .autowide .module {
+		width: 23.076923076923077%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(4n+0) {
+		margin-right: 0;
+	}
 }

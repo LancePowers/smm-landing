@@ -3,11 +3,11 @@ $(document).ready(function(){
 
   var item_length = $('.ss > div').length - 1;
   var slider = $('.ss').slick({
-    dots: true,
     speed: 700,
     autoplay:true,
     autoplaySpeed: 3000,
-    infinite: false
+    infinite: false,
+    pauseOnHover: false
   });
 
   // On before slide change
