@@ -2274,3 +2274,10 @@ form{
 		font-size:1.8em;
 	}
 }
+
+h3.hackathong {
+   font-size: 2em;
+   line-height: 1.2em;
+   font-weight: 400;
+   width: 79%;
+}
